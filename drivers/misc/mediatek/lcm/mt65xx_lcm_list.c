@@ -86,6 +86,15 @@ LCM_DRIVER *lcm_driver_list[] = {
 #if defined(ILI9806E_HLT_HD720_DSI)
 	&ili9806e_hlt_hd720_dsi,
 #endif
+#if defined(ILI9806e_HLT_HD720_DSI_VDO_FWVGA)
+	&ili9806e_hlt_hd720_dsi_vdo_fwvga,
+#endif
+#if defined(ILI9806e_TXD_HD720_DSI_VDO_FWVGA)
+	&ili9806e_txd_hd720_dsi_vdo_fwvga,
+#endif
+#if defined(ILI9806e_YAXIN_HD720_DSI_VDO_FWVGA)
+	&ili9806e_yaxin_hd720_dsi_vdo_fwvga,
+#endif
 
 
 
